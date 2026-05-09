@@ -57,71 +57,19 @@ export default function EventsSpotlight() {
             ))}
           </div>
 
-          <div
-            style={{
-              marginTop: 40,
-              padding: 18,
-              background: "rgba(15,15,21,0.7)",
-              borderRadius: 16,
-              border: "1px solid rgba(255,255,255,0.06)",
-              display: "flex",
-              gap: 16,
-              alignItems: "center",
-            }}
-          >
-            <div
-              style={{
-                width: 60,
-                height: 60,
-                borderRadius: 14,
-                background: "linear-gradient(135deg, #7C3AED, #EC4899, #F97316)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 26,
-              }}
-            >
-              ☕
-            </div>
-            <div style={{ flex: 1 }}>
-              <div style={{ fontWeight: 700, fontSize: 17, color: "#fff" }}>
-                Supercar Saturdays Florida
-              </div>
-              <div style={{ fontSize: 13, color: "var(--text-dim)", marginTop: 2 }}>
+          <div className="event-card">
+            <div className="event-card-icon">☕</div>
+            <div className="event-card-body">
+              <div className="event-card-title">Supercar Saturdays Florida</div>
+              <div className="event-card-meta">
                 Sat May 9 · 09:00 · Seminole Hard Rock Hotel
               </div>
-              <div style={{ display: "flex", gap: 6, marginTop: 8 }}>
-                <span
-                  style={{
-                    padding: "3px 10px",
-                    borderRadius: 999,
-                    background: "rgba(124,58,237,0.18)",
-                    color: "#D9C2FF",
-                    fontSize: 10,
-                    fontWeight: 700,
-                    letterSpacing: "0.1em",
-                  }}
-                >
-                  CARS &amp; COFFEE
-                </span>
-                <span
-                  style={{
-                    padding: "3px 10px",
-                    borderRadius: 999,
-                    background: "rgba(34,197,94,0.18)",
-                    color: "#4ADE80",
-                    fontSize: 10,
-                    fontWeight: 700,
-                    letterSpacing: "0.1em",
-                  }}
-                >
-                  ↻ RECURRING
-                </span>
+              <div className="event-card-tags">
+                <span className="event-card-tag cars">CARS &amp; COFFEE</span>
+                <span className="event-card-tag recurring">↻ RECURRING</span>
               </div>
             </div>
-            <button className="btn btn-primary" style={{ padding: "10px 16px", fontSize: 13 }}>
-              Start a convoy
-            </button>
+            <button className="btn btn-primary event-card-cta">Start a convoy</button>
           </div>
         </div>
       </div>
