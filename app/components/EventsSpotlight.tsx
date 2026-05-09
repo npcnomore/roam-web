@@ -69,7 +69,9 @@ export default function EventsSpotlight() {
                 <span className="event-card-tag recurring">↻ RECURRING</span>
               </div>
             </div>
-            <button className="btn btn-primary event-card-cta">Start a convoy</button>
+            <a href="/events" className="btn btn-primary event-card-cta">
+              Browse events
+            </a>
           </div>
         </div>
       </div>
