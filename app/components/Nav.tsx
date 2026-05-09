@@ -13,17 +13,18 @@ export default function Nav() {
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="container nav-inner">
-        <a href="#" className="nav-brand">
+        <a href="/" className="nav-brand">
           <RoamMark size={28} />
           <span>ROAM</span>
         </a>
         <div className="nav-links">
-          <a href="#features">Features</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
+          <a href="/events">Events</a>
+          <a href="/#features">Features</a>
+          <a href="/#pricing">Pricing</a>
+          <a href="/#faq">FAQ</a>
         </div>
         <div className="nav-ctas">
-          <a href="#download" className="btn btn-primary btn-sm">Get the app</a>
+          <a href="/#download" className="btn btn-primary btn-sm">Get the app</a>
         </div>
       </div>
     </nav>

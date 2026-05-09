@@ -7,7 +7,7 @@ import Customize from "./components/Customize";
 import EventsSpotlight from "./components/EventsSpotlight";
 import Achievements from "./components/Achievements";
 import Pricing from "./components/Pricing";
-import SocialProof from "./components/SocialProof";
+// import SocialProof from "./components/SocialProof";
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
@@ -26,7 +26,7 @@ export default function Home() {
         <EventsSpotlight />
         <Achievements />
         <Pricing />
-        <SocialProof />
+        {/* <SocialProof /> */}
         <FAQ />
         <FinalCTA />
       </main>

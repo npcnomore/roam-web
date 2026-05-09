@@ -114,13 +114,6 @@ export default function Footer() {
             <a href="#" className="footer-link">Changelog</a>
           </div>
           <div>
-            <div className="footer-h">Crew</div>
-            <a href="#" className="footer-link">For clubs</a>
-            <a href="#" className="footer-link">For shops</a>
-            <a href="#" className="footer-link">Events directory</a>
-            <a href="#" className="footer-link">Submit an event</a>
-          </div>
-          <div>
             <div className="footer-h">Company</div>
             <a href="#" className="footer-link">About</a>
             <a href="#" className="footer-link">Press</a>
